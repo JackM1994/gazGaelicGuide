@@ -13,6 +13,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Cabin:ital,wght@1,500&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Dancing+Script&display=swap" rel="stylesheet"> 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="js/dist/jquery.fancybox.min.css" />
+    <script src="js/dist/jquery.fancybox.min.js"></script>
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <link rel="stylesheet" href="css/stylesheet.css">
 </head>
@@ -49,8 +54,8 @@
       <!-- About Section -->
       <img class ="profiler" src="images/profile.png" width ="200px" height="200px">
       <div class="jumbotron-headline" id="about-section" data-aos="fade-left" data-aos-anchor="#about-section"
-      data-aos-offset="500"
-      data-aos-duration="500">
+      data-aos-offset="300"
+      data-aos-duration="300">
           <h3 class="about">About</h3>
         
         <div class="bio">
@@ -58,11 +63,53 @@
           <p class="bio-desc">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p> 
         </div>
         <div class ="social-media">
-          <img class="insta" src="images/instagram-sketched.png" width="50px" height="50px">
+          <a href="https://www.instagram.com/gaz_gaelic_guide/"><img class="insta" src="images/instagram-sketched.png" width="50px" height="50px"></a>
           <img class="facebook" src="images/facebook.png" width="50px" height="50px">
           <img class="twitter" src="images/twitter.png" width="50px" height="50px">
         </div>
-      </div> 
+      </div>  <!--End of About Section-->
+
+      <!-- Cert-Service Section -->
+      <div class="certs-service">
+        <h3 class ="certs">Certifications</h3>
+        <ul class="certs-un">
+          <li  data-aos="fade-up" class="cert-list">Personal Trainer Certification</li>
+          <li data-aos="fade-down" class="cert-list">Kettlebell Certification</li>
+          <li  data-aos="fade-right" class="cert-list">Fitness and SPorts Nutrition Coach</li>
+        </ul>
+
+        <h3 class ="services">Services</h3>
+        <ul class="services-un">
+          <li class="service-list">Online Classes </li>
+          <li  class="service-list">Nutritional Advice</li>
+          <li  class="service-list">Online Workout Programs</li>
+        </ul>
+      </div>
+      <!-- END OF CERT SECTION -->
+      
+      <div class="image-section">
+          <div class="instagram-feed">
+              <!-- image 1 -->
+              <a data-fancybox="gallery" href="images/box-squat.png"><img class="insta" src="images/box-squat.png" alt="box-squat" width ="150px" height="150px"></a>
+              <!-- image 2 -->
+              <a data-fancybox="gallery" href="images/gaa.png"><img class="insta" src="images/gaa.png" alt="gaa" width ="150" height="150"></a>
+              <!-- image 3 -->
+              <a data-fancybox="gallery" href="images/pull-ups.png"><img class="insta" src="images/pull-ups.png" alt="pull-ups" width ="150px" height="150px"></a>
+              <!-- image 4 -->
+              <a data-fancybox="gallery" href="images/resistance-jump.png"><img class="insta" src="images/resistance-jump.png" alt="resistance-jump" width ="150px" height="150px"></a>
+              <!-- image 5 -->
+              <a data-fancybox="gallery" href="images/sprints.png"><img class="insta" src="images/sprints.png" alt="sprints" width ="150px" height="150px"></a>
+              <!-- image 6 -->
+              <a data-fancybox="gallery" href="images/stretchs.png"><img class="insta" src="images/stretchs.png" alt="stretchs" width ="150px" height="150px"></a>
+              
+            </div>
+            <div class="btn-insta">
+             <a href="https://www.instagram.com/gaz_gaelic_guide/" target="_blank" id="instagram" class="button"><img src="images/instagram-sketched.png" width="50px" width="50px"><span class="follow">Follow me on Instagram</span></a>
+             <hr>
+            </div>
+           </div>
+      </div>
+
 
     <!-- </div> End of Wrapper Div -->
     

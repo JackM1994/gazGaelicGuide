@@ -26,16 +26,15 @@
 
 #header-part{
   position: relative;
-  margin-top: 120px;
+  margin-top: 80px;
   margin-bottom: 10px;
   height: 100%;
   background-color: #fff;
   background-size: cover;
   overflow:hidden;
   transition: width 2s;
-  height: 700px;
-   background: url(../images/header-image.png)no-repeat;
- 
+  height: 650px;
+  background: url(../images/header-image.png)no-repeat;
  
 }
 .profiler{
@@ -171,4 +170,59 @@ margin-bottom: 40px;
 	background-image: linear-gradient(-270deg, rgba(255,255,255,0.00) 0%, #FFFFFF 20%, #FFFFFF 80%, rgba(255,255,255,0.00) 100%);
 }
  
+.certs-service{
+  margin-top: 150px;
+  display: block;
+  margin: auto;
+  text-align: center;
+}
 
+.certs,
+.services{
+  font-size: 40px;
+  margin-top: 40px;
+  color: #fff;
+  font-family: 'Titillium Web', sans-serif;
+  margin-bottom: 90px;
+}
+.certs{
+  margin-top: 140px;
+}
+.certs-un,
+.services-un{
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+.cert-list,
+.service-list{
+  margin-bottom: 20px;
+}
+.services{
+  margin-top: 150px;
+  margin-bottom: 40px;
+}
+
+.image-section{
+  background: #FEFAFD;
+  display: block;
+  margin: auto;
+}
+.instagram-feed{
+  margin: auto;
+  margin-top: 180px;
+  margin-left: 22px;
+  padding-bottom: 10px;
+  padding-top: 100px;
+}
+
+.btn-insta{
+  font-size: 18px;
+  margin-left: 45px;
+
+}
+.follow{
+  margin-left: 20px;
+  font-family: 'Titillium Web', sans-serif;
+  
+}
