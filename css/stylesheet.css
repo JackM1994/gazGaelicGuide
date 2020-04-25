@@ -46,7 +46,7 @@
 }
 #about-section{
   margin-top:0%;
-  background: #45a29e;
+  /* background: #45a29e; */
   height: 600px;
 
 
@@ -55,7 +55,7 @@
   text-align: center;
   font-size: 70px;
   font-family: 'Titillium Web', sans-serif;
-  color: #1f2833;
+  color: #fff;
   margin-top: 40px;
 
 }
@@ -81,7 +81,25 @@
   text-shadow: 0 0  10px #000;
   margin-bottom: 100px;
 }
- */
+.social-media{
+ display: inline-block;
+ margin: auto;
+margin-left: 15%;
+margin-top: 50px;
+
+ }
+ .insta{
+   padding-right: 20px;
+ }
+ .facebook{
+   padding-right: 20px;
+   padding-left: 10px;
+ }
+ .twitter{
+   padding-left: 10px;
+
+ }
+
 
  .tab-title{
   font-family: 'Titillium Web', sans-serif;
