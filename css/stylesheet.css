@@ -208,11 +208,15 @@ margin-bottom: 40px;
   margin: auto;
 }
 .instagram-feed{
-  margin: auto;
   margin-top: 180px;
-  margin-left: 10px;
-  padding-bottom: 10px;
-  padding-top: 100px;
+  margin-bottom: 40px;
+ 
+}
+.insta{
+  margin-left: 22px;
+  margin-top: 40px;
+  margin-right: -5px;
+  display: inline-block;
 }
 
 .btn-insta{
