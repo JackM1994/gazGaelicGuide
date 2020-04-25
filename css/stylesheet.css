@@ -205,7 +205,7 @@ margin-bottom: 40px;
 
 .image-section{
   background: #FEFAFD;
-  display: block;
+  display: inline-block;
   margin: auto;
 }
 .instagram-feed{
