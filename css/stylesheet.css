@@ -205,13 +205,12 @@ margin-bottom: 40px;
 
 .image-section{
   background: #FEFAFD;
-  display: inline-block;
   margin: auto;
 }
 .instagram-feed{
   margin: auto;
   margin-top: 180px;
-  margin-left: 15px;
+  margin-left: 10px;
   padding-bottom: 10px;
   padding-top: 100px;
 }
