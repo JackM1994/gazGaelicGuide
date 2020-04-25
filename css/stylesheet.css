@@ -229,3 +229,43 @@ margin-bottom: 40px;
   font-family: 'Titillium Web', sans-serif;
 
 }
+.free-workout{
+  
+  background: #FEFAFD;
+  margin: auto;
+  display: block;
+  margin-top: -20px;
+}
+.workout{
+  text-align: center;
+  width: 90%;
+  height: auto;
+  margin-top: 55px;
+  margin-left: 5%;
+}
+.program{
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+  font-family: 'Titillium Web','sans-serif';
+  font-size: 33px;
+}
+.workout-desc{
+  font-family: 'Poppins', 'sans-serif';
+  font-size: 18px;
+  margin-left: 10px;
+  margin-right: 10px;
+
+}
+
+.free-workout-btn{
+  padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-size: 20px;
+  margin-left: 150px;
+  border-radius: 10%;
+  background: orangered;
+  color: #fff;
+  font-weight: bold;
+}
