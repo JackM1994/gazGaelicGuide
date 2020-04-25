@@ -84,21 +84,23 @@
 .social-media{
  display: inline-block;
  margin: auto;
-margin-left: 15%;
+margin-left: 20%;
 margin-top: 50px;
+margin-bottom: 40px;
 
  }
- .insta{
-   padding-right: 20px;
+  .insta{
+   margin-right: 20px;
  }
+ 
  .facebook{
-   padding-right: 20px;
-   padding-left: 10px;
+   margin-right: 20px;
+   margin-left: 10px;
  }
  .twitter{
-   padding-left: 10px;
+   margin-left: 10px;
 
- }
+ } 
 
 
  .tab-title{
