@@ -46,21 +46,39 @@
       </nav>
       <!-- <div id="main-wrapper"> -->
          <!-- Headline -->
-      <div class="jumbotron-headline jumbotron-fluid text-dark" id="header-part">
-        <h3 class="intro-header"> Personal Trainer</h3>
-          <button class="get-in-touch">Get in Touch</button> 
-      </div> <!--Headline -->
+      <div id="big-screen">
+        <div class="diagonal-box">
+            <div class="jumbotron-headline jumbotron-fluid text-dark" id="header-part">
+            </div>
+                <h3 class="intro-header"> Personal Trainer</h3>
+                  <button class="get-in-touch">Get in Touch</button> 
+           
+          </div>
+      </div>
+      
 
       <!-- About Section -->
       <img class ="profiler" src="images/profile.png" width ="200px" height="200px">
+      <div class="message-section">
+        <h4 class="message-here">Send a message</h4>
+        <div class ="insta-msg">
+            <a href="https://www.instagram.com/direct/t/340282366841710300949128150557646860162" target="_blank" class="msg-btn"><button class="insta-msg-btn"><img class="insta-msg-1"src="images/instagram-sketched.png" width="20px" width="20px">Direct</button></a>
+          </div>
+          <div class="mes-msg">
+              <button class="fb-msg-btn"><img class="mes-msg-1" src="images/messenger.png" width="20px" width="20px">Messenger</button>
+          </div>
+        </div>
+       
       <div class="jumbotron-headline" id="about-section" data-aos="fade-left" data-aos-anchor="#about-section"
       data-aos-offset="300"
       data-aos-duration="300">
+     
           <h3 class="about">About</h3>
         
         <div class="bio">
          
           <p class="bio-desc">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p> 
+          
         </div>
         <div class ="social-media">
           <a href="https://www.instagram.com/gaz_gaelic_guide/"><img class="instag" src="images/instagram-sketched.png" width="50px" height="50px"></a>
@@ -71,20 +89,25 @@
 
       <!-- Cert-Service Section -->
       <div class="certs-service">
-        <h3 class ="certs">Certifications</h3>
-        <ul class="certs-un">
-          <li  data-aos="fade-up"  data-aos-offset="200" data-aos-duration="200"class="cert-list">Personal Trainer Certification</li>
-          <li data-aos="fade-down" class="cert-list" data-aos-offset="200" data-aos-duration="200">Kettlebell Certification</li>
-          <li  data-aos="fade-right" class="cert-list" data-aos-offset="200"data-aos-duration="200">Fitness and SPorts Nutrition Coach</li>
-        </ul>
-
-        <h3 class ="services">Services</h3>
-        <ul class="services-un">
-          <li class="service-list">Online Classes </li>
-          <li  class="service-list">Nutritional Advice</li>
-          <li  class="service-list">Online Workout Programs</li>
-        </ul>
-      </div>
+        <div id = "certs-section">
+            <h3 class ="certs">Certifications</h3>
+            <ul class="certs-un">
+              <li  data-aos="fade-up"  data-aos-offset="200" data-aos-duration="200"class="cert-list">Personal Trainer Certification</li>
+              <li data-aos="fade-down" class="cert-list" data-aos-offset="200" data-aos-duration="200">Kettlebell Certification</li>
+              <li  data-aos="fade-right" class="cert-list" data-aos-offset="200"data-aos-duration="200">Fitness and SPorts Nutrition Coach</li>
+            </ul>
+        </div>
+        
+        <div id="service-section">
+            <h3 class ="services">Services</h3>
+            <ul class="services-un">
+              <li class="service-list">Online Classes </li>
+              <li  class="service-list">Nutritional Advice</li>
+              <li  class="service-list">Online Workout Programs</li>
+            </ul>
+          </div>
+        </div>
+        
       <!-- END OF CERT SECTION -->
       
       <div class="image-section">
@@ -111,22 +134,29 @@
       </div>
 
       <div class ="free-workout">
-        <img class="workout" src="images/push-ups.png" alt="push-ups">
-        <h3 class="program">Free Home Workout</h3>
-        <p class ="workout-desc">Free home workout available.
-                                 <b>Equipment needed:</b> none.
-                                 This simple program can be done from the comfort of your own home.
+        
+        <div class ="bigger-screen">
+            <img class="workout" src="images/push-ups.png" alt="push-ups">
+        </div>
 
-        </p>
-        <p class ="workout-desc">There is no need to try and over complicate programs. 
-                                  I have based this simple workout, with circuits, HIIT sessions, supersets and straight set workouts.
-                                  </p>
-        <p class="workout-desc">                           The goal is to try and progress each week and get more done in your workout.
-                                  Click the button down below to recieve this free pdf workout.
-                                  <br>
-                                  Gary.</p>
-
-        <button class="free-workout-btn">Free Download</button>
+        <div class="bigger-desc">
+            <h3 class="program">Free Home Workout</h3>
+            <p class ="workout-desc">Free home workout available.
+                                     <b>Equipment needed:</b> none.
+                                     This simple program can be done from the comfort of your own home.
+    
+            </p>
+            <p class ="workout-desc">There is no need to try and over complicate programs. 
+                                      I have based this simple workout, with circuits, HIIT sessions, supersets and straight set workouts.
+                                      </p>
+            <p class="workout-desc">                           The goal is to try and progress each week and get more done in your workout.
+                                      Click the button down below to recieve this free pdf workout.
+                                      <br>
+                                      Gary.</p>
+    
+            <button class="free-workout-btn">Free Download</button>
+        </div>
+        
       </div>
 
        <!--  footer -->
@@ -167,3 +197,4 @@
     AOS.init();
   </script>
 </body>
+</html>

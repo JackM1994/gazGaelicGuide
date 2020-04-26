@@ -6,6 +6,12 @@
   
   
 }
+nav .navbar-nav li a{
+  color: white !important;
+  }
+.nav-link{
+  color: #fff;
+}
 a{
   color: #66fcf1;
 }
@@ -38,6 +44,7 @@ a{
   transition: width 2s;
   height: 650px;
   background: url(../images/header-image.png)no-repeat;
+  background-size: cover;
  
 }
 .profiler{
@@ -72,6 +79,8 @@ a{
   margin-top: 40px;
 }
 .intro-header{
+  position: absolute;
+  top: 18%;
   font-family: 'Titillium Web', sans-serif;
   color: #fff;
   font-size: 40px;
@@ -114,7 +123,8 @@ margin-bottom: 40px;
 }
 .get-in-touch {
 	cursor: pointer;
-  position: relative;
+  position: absolute;
+  top: 84%;
   margin-top: -15px;
   margin-left: 20px;
   margin-bottom: 40px;
@@ -296,4 +306,173 @@ margin-bottom: 40px;
   margin: auto;
   margin-bottom: 20px;
 
+}
+.message-section{
+  display: none;
+}
+
+/* media Queries */
+@media (min-width: 438px){
+
+  .social-media{
+    margin-left: 35%;
+  }
+
+}
+
+@media(min-width: 769px){
+  #big-screen{
+    
+    position: relative;
+    background: #1f2833;
+    height: 510px;
+    margin: auto;
+    width: 100%;
+    margin-bottom: 250px;
+   
+  }
+ 
+  #header-part{
+    background: url('../images/gaa-profle.png')no-repeat;
+    background-size: cover;
+    background-color: #66fcf1;
+    mix-blend-mode: exclusion;
+  }
+
+  .intro-header{
+    font-size: 50px;
+    margin-bottom: 30px;
+ 
+  }
+  .profiler{
+    position: absolute;
+    top: 150%;
+    left: 72%;
+  }
+  
+  #about-section{
+    width: 50%;
+  }
+  
+  .certs-service{
+    display: flex;
+    flex-direction: row;
+  }
+
+  #certs-section{
+    margin-top: 100px;
+    width: 50%;
+  }
+
+  #service-section{
+    margin-top: 100px;
+    width: 50%;
+  }
+  .services{
+    margin-top: 140px;
+    
+  }
+  .services-un{
+    padding-top: 50px;
+  }
+
+.instagram-feed{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  
+}
+.insta{
+  width: 300px;
+  height: 300px;
+ 
+  display: inline-block;
+}
+.btn-insta{
+
+  text-align: center;
+}
+.program{
+  margin-left: 30px;
+  margin-top: 15px;
+}
+.workout-desc{
+  margin-top: 40px;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.free-workout-btn{
+  margin-left: 500px;
+}
+.row,
+    .col,
+    .nav,
+    small{
+        display: flex;
+        flex-flow: wrap;
+        justify-content: center;
+    }
+.message-section{
+  display: block;
+  position: relative;
+}
+.message-here{
+  color: #fff;
+  font-size: 18px;
+  position: absolute;
+  margin-top: 260px;
+  left: 75%;
+
+}
+.insta-msg-1{
+  margin-right: 10px;
+}
+.insta-msg,
+.mes-msg{
+  display: inline-block;
+  position: absolute;
+  margin-top: 320px;
+  margin-left: 68%;
+ 
+}
+.mes-msg{
+  left: 15%;
+}
+
+ .insta-msg-btn,
+ .fb-msg-btn
+ {
+  
+   padding-left: 20px;
+   padding-right: 20px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+   border-radius: 10px;
+   font-size: 14px;
+   font-family: 'Titillium Web', 'sans-serif';
+ }
+
+}
+@media(min-width: 1024px){
+  .free-workout{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .bigger-screen{
+    display: block;
+    width: 50%;
+  }
+  .program{
+    margin-top: 50px;
+  }
+  .bigger-desc{
+    display: block;
+    width: 50%;
+  }
+  .free-workout-btn{
+    margin-left: 50%;
+  }
 }
