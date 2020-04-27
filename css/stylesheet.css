@@ -41,7 +41,7 @@ a{
   background-color: #fff;
   background-size: cover;
   overflow:hidden;
-  transition: width 2s;
+  width: 120%;
   height: 650px;
   background: url(../images/header-image.png)no-repeat;
   background-size: cover;
@@ -380,7 +380,7 @@ margin-bottom: 40px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-around;
   
 }
 .insta{
